@@ -19,12 +19,5 @@ public class MainActivity extends AppCompatActivity {
         mRootView = findViewById(R.id.root);
         mClockView = findViewById(R.id.clock);
 
-        mRootView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mClockView.setShowAnalog(!mClockView.isShowAnalog());
-            }
-        });
-
     }
 }
